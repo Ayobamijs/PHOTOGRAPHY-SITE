@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#morebutton {
+    background-color: darkred;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px whitesmoke;
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+
+#servicebutton {
+    background-color: darkred;
+    padding: 10px;
+    width: 100px;
+    color: beige;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+
+}
+
+.bgphoto {
+    /* background-color: black; */
+    background-image: url("../Images/camera-gabb50a3bc_1920.jpg");
+    height: 700px;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#photomenu {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    color: bisque;
+}
+
+a {
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    /* text-align: center; */
+}
+
+#menus {
+    text-align: center;
+}
+
+
+
+a:hover {
+    border-bottom: 2px solid darkred;
+    /* background-color: darkred; */
+    /* border-radius: 20px; */
+    height: 5px;
+    margin: 5px;
+}
+
+.bgwriteup {
+    color: whitesmoke;
+    width: 50%;
+    margin: 200px;
+    padding-bottom: 100px;
+}
+
+.toprite {
+    padding-bottom: 20px;
+    font-size: 70px
+}
+
+.about {
+
+    /* padding-left: 45%; */
+    padding-top: 20px;
+    /* background-color: black; */
+
+}
+
+.center {
+    text-align: center;
+}
+
+.serviceflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    /* justify-content: space-around; */
+    /* padding: 20px; */
+}
+
+.servicerite {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    /* z-index: 1; */
+    color: beige;
+}
+
+.serviceimg {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.flexabout {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    justify-content: space-around;
+    /* width: 70%; */
+    padding-top: 40px;
+}
+
+.image {
+    justify-content: center;
+    padding-right: 10%;
+    float: right;
+}
+
+#aboutwrite {
+    padding: 10px;
+    line-height: 0.8cm;
+    /* width: 100%; */
+    width: 50%;
+
+}
+
+.imageabout {
+    background-image: url("../Images/lens-gb32a1b4d1_1920.jpg");
+    /* width: 100%; */
+}
+
+.flexnews {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    line-height: 0.7cm;
+
+}
+
+#newsimg {
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 200px;
+}
+
+.signup {
+    background-color: darkred;
+    color: bisque;
+    justify-content: center;
+}
+
+input[type=email] {
+    justify-content: center;
+    padding: 12px 20px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#newsletter {
+    padding-left: 33%;
+    width: 50%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.newsbutton {
+    /* background-color: black; */
+    color: darkred;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footerservice {
+    padding-top: 20px;
+}
+
+.ourservicebox {
+    display: block;
+    color: darkred;
+    padding-top: 10px;
+
+}
+
+.foot {
+    display: block;
+    padding: 0;
+    padding-top: 8px;
+
+
+}
+
+.helpsupport {
+    display: block;
+    color: darkred;
+    padding-top: 10px;
+}
+
+.copywrite {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+}
