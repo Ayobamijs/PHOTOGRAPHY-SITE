@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-image: url('/Images/image\ 8.jpg');
+  background-image: url('../images/camera-g244880b36_1280.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -276,22 +276,35 @@ body {
 
 .news input {
   background-color: #f3f3f3;
+  width: 50%;
+  /* margin-left: 50%; */
+}
+
+/* .newsletter {
+  width: 100%;
+} */
+
+.news {
+  width: 100%;
+  justify-content: center;
 }
 
 .news button {
   color: darkred;
   font-weight: bold;
   text-transform: upper-case;
-  padding-left: 2px;
-  padding-right: 2px;
+  /* padding-left: 2px;
+  padding-right: 2px; */
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid white;
-  background-color: white;
+  /* background-color: white; */
   font-weight: bold;
   border-radius: 8px;
   font-size: 18px;
+  width: 10%;
+  /* background-color: aqua; */
 }
 
 

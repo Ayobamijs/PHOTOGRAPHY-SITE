@@ -1,6 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
+}
+
+@media screen (max-width:768px) {
+
+    .bgphoto #menu,
+    .bgwriteup,
+    .about {
+        width: 50px;
+    }
 }
 
 #morebutton {
@@ -48,16 +59,19 @@
 }
 
 a {
-    display: inline-block;
+    display: inline;
     padding: 30px;
     margin: 10px;
     text-decoration: none;
     color: antiquewhite;
+    width: 100%;
+    /* margin-top: 60px; */
     /* text-align: center; */
 }
 
 #menus {
     text-align: center;
+    padding-top: 50px;
 }
 
 
@@ -68,6 +82,12 @@ a:hover {
     /* border-radius: 20px; */
     height: 5px;
     margin: 5px;
+}
+
+@media screen(max-width:768px) {
+    .serviceflex .serviceimg {
+        width: 50px
+    }
 }
 
 .bgwriteup {
@@ -94,6 +114,14 @@ a:hover {
     text-align: center;
 }
 
+.services {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
+    padding-top: 20px;
+    width: 70%;
+    margin-left: 200px;
+    text-align: center;
+}
+
 .serviceflex {
     display: flex;
     flex-direction: row;
@@ -114,6 +142,7 @@ a:hover {
 .serviceimg {
     padding: 10px;
     border-radius: 20px;
+    /* border-radius: 50% 50%; */
 }
 
 .relative {
@@ -168,7 +197,7 @@ a:hover {
 .signup {
     background-color: darkred;
     color: bisque;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 input[type=email] {
@@ -181,17 +210,18 @@ input[type=email] {
 
 #newsletter {
     padding-left: 33%;
-    width: 50%;
+    /* width: 50%; */
     border-radius: 10px;
     padding-bottom: 10px;
 }
 
 .newsbutton {
-    /* background-color: black; */
+    background-color: black;
     color: darkred;
     padding: 10px;
     border-radius: 10px;
     font-size: 15px;
+    color: whitesmoke;
 
 }
 
